@@ -1,0 +1,26 @@
+{
+  "serve_port": ":1234",
+  "read_Timeout" : 10,
+  "write_Timeout" : 100,
+  "Postgres": {
+    "po_host": "localhost",
+    "po_port": 5432,
+    "po_user": "postgres",
+    "po_password": "",
+    "po_dbname": ""
+  },
+  "Mongo": {
+    "mo_host": "localhost",
+    "mo_port": 27017
+  },
+  "Redis": {
+    "server": "localhost",
+    "port": "6379",
+    "password": "",
+    "db": 0
+  },
+  "Kafka": {
+    "server": "localhost",
+    "port": "9092"
+  }
+}
